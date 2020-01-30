@@ -35,8 +35,8 @@ def calculate_standard_deviation(array)
   step_7 = sum.round(1) / total_numbers
 
   # Step 8: Divide the result from step 6 by the number of integers (step 2)
-  square_result = Math.sqrt(step_7).round(2)
-  square_result
+  square_result = Math.sqrt(step_7)
+  square_result.round(2)
 end
 
 # When you find the standard deviation, print it out

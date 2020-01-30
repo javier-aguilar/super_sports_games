@@ -15,7 +15,7 @@ class Event
         max_age = value
       end
     end
-    max_age
+    max_age.to_i
   end
 
   def min_age
@@ -25,7 +25,7 @@ class Event
         min_age = value
       end
     end
-    min_age
+    min_age.to_i
 
   end
 
@@ -38,7 +38,7 @@ class Event
       count += 1
     end
     average = (sum / count)
-    average
+    average.round(2)
   end
 
   def standard_deviation_age
