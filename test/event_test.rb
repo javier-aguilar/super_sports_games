@@ -51,4 +51,17 @@ class EventTest < Minitest::Test
     assert_equal 28.8, bowling.average_age
   end
 
+  def test_standard_deviation_age_is_correct
+    event = "Swimming"
+    ages = [24, 30, 17, 20, 65]
+    swimming = Event.new(event, ages)
+
+    event2 = "Bowling"
+    ages2 = [24, 30, 52, 20, 18]
+    bowling = Event.new(event2, ages2)
+
+    assert_equal 17.45, swimming.standard_deviation_age
+    assert_equal 12.3, bowling.standard_deviation_age
+  end
+
 end
