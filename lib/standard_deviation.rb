@@ -1,5 +1,3 @@
-#ages = [24, 30, 18, 20, 41]
-
 # Your code here for calculating the standard deviation
 def calculate_standard_deviation(array)
   total_sum = 0.0
@@ -44,4 +42,6 @@ end
 # When you find the standard deviation, print it out
 
 # this prints it out but I don't need after iteration 1
+
+#ages = [24, 30, 18, 20, 41]
 # p calculate_standard_deviation(ages)
