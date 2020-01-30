@@ -30,6 +30,8 @@ def show_summary
   puts "******************************************************"
   puts "Summary:"
   puts "------------------------------------------------------"
+  puts "Year:" + @games.year
+  puts ""
   puts @games.summary
 end
 
@@ -54,6 +56,7 @@ def enter_year
 end
 
 switch = false
+# Need to create checks for invalid answers
 while(switch == false)
   start_program
   answer = gets.chomp()

@@ -41,4 +41,6 @@ def calculate_standard_deviation(array)
 end
 
 # When you find the standard deviation, print it out
-p calculate_standard_deviation(ages)
+
+# this prints it out but I don't need after iteration 1 
+# p calculate_standard_deviation(ages)
