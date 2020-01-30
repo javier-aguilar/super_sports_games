@@ -56,7 +56,7 @@ def enter_year
 end
 
 switch = false
-# Need to create checks for invalid answers
+# Need to create checks for invalid input
 while(switch == false)
   start_program
   answer = gets.chomp()
