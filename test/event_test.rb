@@ -38,4 +38,17 @@ class EventTest < Minitest::Test
     assert_equal 18, bowling.min_age
   end
 
+  def test_average_age_is_correct
+    event = "Swimming"
+    ages = [24, 30, 17, 20, 65]
+    swimming = Event.new(event, ages)
+
+    event2 = "Bowling"
+    ages2 = [24, 30, 52, 20, 18]
+    bowling = Event.new(event2, ages2)
+
+    assert_equal 31.2, swimming.average_age
+    assert_equal 28.8, bowling.average_age
+  end
+
 end
