@@ -1,4 +1,4 @@
-ages = [24, 30, 18, 20, 41]
+#ages = [24, 30, 18, 20, 41]
 
 # Your code here for calculating the standard deviation
 def calculate_standard_deviation(array)
@@ -38,9 +38,10 @@ def calculate_standard_deviation(array)
 
   # Step 8: Divide the result from step 6 by the number of integers (step 2)
   square_result = Math.sqrt(step_7).round(2)
+  square_result
 end
 
 # When you find the standard deviation, print it out
 
-# this prints it out but I don't need after iteration 1 
+# this prints it out but I don't need after iteration 1
 # p calculate_standard_deviation(ages)
